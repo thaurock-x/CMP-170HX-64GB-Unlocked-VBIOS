@@ -85,6 +85,30 @@ Run nvidia-smi to verify full 64GB detection:
    S[GPU Mode: N/A] -->
    T[CEC OTA-signed Blob: Not Present]
 ```
+---
+
+### Verificación de Integridad (SHA-256):
+
+* **Archivo:** `cmp170hx64gb_unlockerd.rom`
+* **SHA-256:** `2e8961ac518924cebd52363555c875071e6a58ece1ef494e192e42d5c1dcd5a2`
+
+#### ¿Cómo verificar el archivo descargado?
+**En Linux / Termux:**
+```bash
+sha256sum cmp170hx64gb_unlockerd.rom
+```
+**En Windows (PowerShell):**
+```bash
+Get-FileHash -Algorithm SHA256 cmp170hx64gb_unlockerd.rom
+```
+**En la terminal de Linux:**
+```bash
+sha256sum cmp170hx64gb_unlockerd.rom
+```
+**Si el archivo es correcto, la consola les devolverá el mismo código:**
+```text
+2e8961ac518924cebd52363555c875071e6a58ece1ef494e192e42d5c1dcd5a2
+```
 
 ## 👤 Author & Acknowledgments
  • Dump & Testing: **Thaurock**
