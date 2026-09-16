@@ -55,7 +55,7 @@ sudo ./nvflash -6 cmp170hx64gb_unlocked.rom
  ---
 
 ## 🔍 Verification
-Run nvidia-smi to verify full 64GB detection:
+Run **nvidia-smi** to verify full 64GB detection:
 
 **NVIDIA-SMI 535.129.03** | **Driver Version: 535.129.03**
 
