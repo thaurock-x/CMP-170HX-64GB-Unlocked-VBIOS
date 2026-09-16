@@ -63,28 +63,27 @@ Run nvidia-smi to verify full 64GB detection:
 
 ### 💎 Reading EEPROM (this operation may take up to 30 seconds):
 ```mermaid
-graph TD
+   graph TD
    A[Build GUID: 23DEFEB5432341BD8EFE06C3A1596346] -->
    B[Build Number: 29953139] -->
-   C[IFR Subsysten ID: 10DE-1585] -->
-   D[Subsystem Vendor ID: Ox10DE] -->
+   C[IFR Subsystem ID: 10DE-1585] -->
+   D[Subsystem Vendor ID: 0x10DE] -->
    E[Subsystem ID: 0x1585] -->
    F[Version: 92.00.67.00.01] -->
    G[Image Hash: N/A] -->
    H[Hierarchy ID: Normal Board] -->
    I[Build Date: 05/12/21] -->
    J[Modification Date: 05/14/21] -->
-   K[UEFI Version: No Version Found or Out dated] -->
-   L[UEFI Variant ID: A No Variant ID Found] -->
-   M[Variant ID Found)] -->
-   N[UEFI Signer(s): Unknown signer] -->
-   O[XUSB-FW Version ID: N/A] -->
-   P[XUSB-FW Build Time: N/A] -->
-   Q[InfoROM Version: 1001.0108.01.02] -->
-   R[InfoROM Backup: Present] -->
-   S[License Placeholder: Present] -->
-   T[GPU Mode: N/A] -->
-   U[CEC OTA-signed Blob: Not Present]
+   K[UEFI Version: No Version Found or Out-dated] -->
+   L[UEFI Variant ID: No Variant ID Found] -->
+   M[UEFI Signer: Unknown signer] -->
+   N[XUSB-FW Version ID: N/A] -->
+   O[XUSB-FW Build Time: N/A] -->
+   P[InfoROM Version: 1001.0108.01.02] -->
+   Q[InfoROM Backup: Present] -->
+   R[License Placeholder: Present] -->
+   S[GPU Mode: N/A] -->
+   T[CEC OTA-signed Blob: Not Present]
 ```
 
 ## 👤 Author & Acknowledgments
