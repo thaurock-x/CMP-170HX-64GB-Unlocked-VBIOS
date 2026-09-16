@@ -62,30 +62,29 @@ Run nvidia-smi to verify full 64GB detection:
 ---
 
 ### 💎 Reading EEPROM (this operation may take up to 30 seconds):
-
 ```mermaid
 graph TD
    A[Build GUID: 23DEFEB5432341BD8EFE06C3A1596346] -->
-   [Build Number: 29953139] -->
-   [IFR Subsysten ID: 10DE-1585] -->
-   [Subsystem Vendor ID: Ox10DE] -->
-   [Subsystem ID: 0x1585] -->
-   [Version: 92.00.67.00.01] -->
-   [Image Hash: N/A] -->
-   [Hierarchy ID: Normal Board] -->
-   [Build Date: 05/12/21] -->
-   [Modification Date: 05/14/21] -->
-   [UEFI Version: No Version Found or Out-dated] -->
-   [UEFI Variant ID: A No Variant ID Found] -->
-   [Variant ID Found)] -->
-   [UEFI Signer(s): Unknown signer] -->
-   [XUSB-FW Version ID: N/A] -->
-   [XUSB-FW Build Time: N/A] -->
-   [InfoROM Version: 1001.0108.01.02] -->
-   [InfoROM Backup: Present] -->
-   [License Placeholder: Present] -->
-   [GPU Mode: N/A] -->
-   [CEC OTA-signed Blob: Not Present] -->
+   B[Build Number: 29953139] -->
+   C[IFR Subsysten ID: 10DE-1585] -->
+   D[Subsystem Vendor ID: Ox10DE] -->
+   E[Subsystem ID: 0x1585] -->
+   F[Version: 92.00.67.00.01] -->
+   G[Image Hash: N/A] -->
+   H[Hierarchy ID: Normal Board] -->
+   I[Build Date: 05/12/21] -->
+   J[Modification Date: 05/14/21] -->
+   K[UEFI Version: No Version Found or Out-dated] -->
+   L[UEFI Variant ID: A No Variant ID Found] -->
+   M[Variant ID Found)] -->
+   N[UEFI Signer(s): Unknown signer] -->
+   O[XUSB-FW Version ID: N/A] -->
+   P[XUSB-FW Build Time: N/A] -->
+   Q[InfoROM Version: 1001.0108.01.02] -->
+   R[InfoROM Backup: Present] -->
+   S[License Placeholder: Present] -->
+   T[GPU Mode: N/A] -->
+   U[CEC OTA-signed Blob: Not Present]
 ```
 
 ## 👤 Author & Acknowledgments
