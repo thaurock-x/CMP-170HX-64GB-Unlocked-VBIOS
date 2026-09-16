@@ -38,10 +38,12 @@ First public standalone **64GB HBM2e** VBIOS dump (Device ID: `10DE 20C2`) for *
    nvflash64.exe -6 cmp170hx64gb_unlocked.rom
    ```
  • Press Y when prompted to confirm flashing across all matched device IDs.
- • Reboot the system.
+ 
+ • **Reboot the system.**
+ 
 🔹 Option B: Linux (Live USB / Driver Unloaded)
- • Boot into system without loading the NVIDIA kernel driver (or unload via sudo rmmod nvidia_uvm nvidia).
- • Flash using nvflash:
+ 1. Boot into system without loading the NVIDIA kernel driver (or unload via sudo rmmod nvidia_uvm nvidia).
+ 2. Flash using nvflash:
 ```cmd
    sudo ./nvflash --protectoff
 ```
@@ -110,7 +112,8 @@ sha256sum cmp170hx64gb_unlockerd.rom
 2e8961ac518924cebd52363555c875071e6a58ece1ef494e192e42d5c1dcd5a2
 ```
 
-## 👤 Author & Acknowledgments
+## 👤 Author & Acknowledgments:
+
  • Dump & Testing: **Thaurock**
  • Special thanks: The open-source hardware, AI inference, and LLM self-hosting community.
 
