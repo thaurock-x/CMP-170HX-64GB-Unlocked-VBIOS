@@ -1,4 +1,5 @@
-NVIDIA CMP 170HX 64GB Unlocked VBIOS
+<div align="center">
+  <h1>✨️ NVIDIA CMP 170HX 64GB Unlocked VBIOS</h1>
 
 [![VRAM Capacity](https://img.shields.io/badge/VRAM-64GB_HBM2e-brightgreen.svg)](#)
 [![Device ID](https://img.shields.io/badge/Device_ID-0x20C2-blue.svg)](#)
@@ -8,13 +9,13 @@ First public standalone 64GB HBM2e VBIOS dump (Device ID: `10DE 20C2`) for NVIDI
 
 ------
 
-📌 Overview
+## 📌 Overview
 
 Standard public VBIOS files for device `0x20C2` often restrict card memory to 16GB. This repository contains the raw 1020 KB (1 MB) ROM dump extracted directly from an unlocked CMP 170HX card, enabling the full 64GB HBM2e VRAM capacity across multi-GPU compute rigs.
 
 ------
 
-⚙️ Specifications & ROM Information
+## ⚙️ Specifications & ROM Information
 
 | Parameter | Specification |
 | :--- | :--- |
@@ -28,7 +29,7 @@ Standard public VBIOS files for device `0x20C2` often restrict card memory to 16
 
 ------
 
-🚀 How to Flash
+## 🚀 How to Flash
 
 🔹 Option A: Windows (Command Prompt as Administrator)
 1. Download `nvflash64.exe` (v5.867.0 or newer).
@@ -46,8 +47,9 @@ sudo ./nvflash -6 cmp170hx64gb_unlocked.rom
 
  • Reboot the system.
 
-🔍 Verification
+## 🔍 Verification
 Run nvidia-smi to verify full 64GB detection:
+
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 535.129.03             Driver Version: 535.129.03               |
 |-------------------------------+----------------------+----------------------+
@@ -60,8 +62,8 @@ Run nvidia-smi to verify full 64GB detection:
 
 ---
 
-###Reading EEPROM (this operation may take up to 30 seconds):
-'''text
+### 💎 Reading EEPROM (this operation may take up to 30 seconds):
+```text
 Build GUID=23DEFEB5432341BD8EFE06C3A1596346
 
 Build Number=29953139
@@ -101,8 +103,16 @@ License Placeholder=Present
 GPU Mode=N/A
 
 CEC OTA-signed Blob=Not Present
-'''
+```
 
-👤 Author & Acknowledgments
+## 👤 Author & Acknowledgments
  • Dump & Testing: Thaurock
  • Special thanks: The open-source hardware, AI inference, and LLM self-hosting community.
+
+---
+
+### ​📄 Licencia:
+
+<div align="center">
+Desarrollado con 💚 por <strong>Thaurock</strong>
+</div>
