@@ -58,6 +58,50 @@ Run nvidia-smi to verify full 64GB detection:
 | N/A   34C    P0    28W / 250W |      0MiB / 65536MiB |      0%      Default |
 +-------------------------------+----------------------+----------------------+
 
+---
+
+###Reading EEPROM (this operation may take up to 30 seconds):
+'''text
+Build GUID=23DEFEB5432341BD8EFE06C3A1596346
+
+Build Number=29953139
+
+IFR Subsysten ID=10DE-1585
+
+Subsystem Vendor ID=Ox10DE
+
+Subsystem ID=0x1585
+
+Version=92.00.67.00.01
+
+Image Hash=N/A
+
+Hierarchy ID=Normal Board
+
+Build Date=05/12/21
+
+Modification Date=05/14/21
+
+UEFI Version=No Version Found or Out-dated ()
+
+UEFI Variant ID=A No Variant ID Found (No Variant ID Found)
+
+UEFI Signer(s)=Unknown signer
+
+XUSB-FW Version ID=N/A
+
+XUSB-FW Build Time=N/A
+
+InfoROM Version=1001.0108.01.02
+
+InfoROM Backup=Present
+
+License Placeholder=Present
+
+GPU Mode=N/A
+
+CEC OTA-signed Blob=Not Present
+'''
 
 👤 Author & Acknowledgments
  • Dump & Testing: Thaurock
