@@ -58,7 +58,7 @@ Run nvidia-smi to verify full 64GB detection:
 | GPU | | Name | | Persistence-M | | Bus-Id | |Disp.A | | Volatile Uncorr. ECC |
 | Fan | | Temp | | Perf | | Pwr:Usage/Cap | | Memory-Usage | |GPU-Util | | Compute M.|
 
-| 0 | | Graphics Device | | Off | | 00000000:08:00.0 Off | | N/A |
+| 0 | | CMP-170HX | | Off | | 00000000:08:00.0 Off | | N/A |
 | N/A | | 34C | | P0 | | 28W / 250W |      | 0MiB / **65536MiB** | 0% | | Default |
 
 ---
