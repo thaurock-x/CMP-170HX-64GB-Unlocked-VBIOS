@@ -74,7 +74,7 @@ graph TD
    H[Hierarchy ID: Normal Board] -->
    I[Build Date: 05/12/21] -->
    J[Modification Date: 05/14/21] -->
-   K[UEFI Version: No Version Found or Out-dated] -->
+   K[UEFI Version: No Version Found or Out dated] -->
    L[UEFI Variant ID: A No Variant ID Found] -->
    M[Variant ID Found)] -->
    N[UEFI Signer(s): Unknown signer] -->
