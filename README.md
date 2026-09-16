@@ -10,7 +10,7 @@ First public standalone 64GB HBM2e VBIOS dump (Device ID: `10DE 20C2`) for NVIDI
 
 📌 Overview
 
-Standard public VBIOS files for device `0x20C2` often restrict card memory to 16GB. This repository contains the raw 1024 KB (1 MB) ROM dump extracted directly from an unlocked CMP 170HX card, enabling the full 64GB HBM2e VRAM capacity across multi-GPU compute rigs.
+Standard public VBIOS files for device `0x20C2` often restrict card memory to 16GB. This repository contains the raw 1020 KB (1 MB) ROM dump extracted directly from an unlocked CMP 170HX card, enabling the full 64GB HBM2e VRAM capacity across multi-GPU compute rigs.
 
 ------
 
