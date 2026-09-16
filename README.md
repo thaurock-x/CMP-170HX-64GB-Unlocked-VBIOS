@@ -65,7 +65,7 @@ Run nvidia-smi to verify full 64GB detection:
 
 ```mermaid
 graph TD
-   [Build GUID: 23DEFEB5432341BD8EFE06C3A1596346] -->
+   A[Build GUID: 23DEFEB5432341BD8EFE06C3A1596346] -->
    [Build Number: 29953139] -->
    [IFR Subsysten ID: 10DE-1585] -->
    [Subsystem Vendor ID: Ox10DE] -->
