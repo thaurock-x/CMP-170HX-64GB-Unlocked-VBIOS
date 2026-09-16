@@ -5,13 +5,13 @@
 [![Device ID](https://img.shields.io/badge/Device_ID-0x20C2-blue.svg)](#)
 [![Status](https://img.shields.io/badge/Status-Tested_%26_Verified-purple.svg)](#)
 
-First public standalone 64GB HBM2e VBIOS dump (Device ID: `10DE 20C2`) for NVIDIA CMP 170HX accelerator cards. Unlocks full memory capacity for AI inference, local LLM execution, and compute workloads on both Windows and Linux.
+First public standalone **64GB HBM2e** VBIOS dump (Device ID: `10DE 20C2`) for **NVIDIA CMP 170HX** accelerator cards. Unlocks full memory capacity for AI inference, local LLM execution, and compute workloads on both Windows and Linux.
 
 ------
 
 ## 📌 Overview
 
-Standard public VBIOS files for device `0x20C2` often restrict card memory to 16GB. This repository contains the raw 1020 KB (1 MB) ROM dump extracted directly from an unlocked CMP 170HX card, enabling the full 64GB HBM2e VRAM capacity across multi-GPU compute rigs.
+`0x20C2` This repository contains the raw 1020 KB (1 MB) ROM dump extracted directly from an unlocked CMP 170HX card, enabling the full 64GB HBM2e VRAM capacity across multi-GPU compute rigs.
 
 ------
 
@@ -25,7 +25,7 @@ Standard public VBIOS files for device `0x20C2` often restrict card memory to 16
 | VRAM Capacity | 64 GB HBM2e (Unlocked) |
 | VBIOS Version | `92.00.67.00.01` |
 | Build Date | 05/12/21 (Modified 05/14/21) |
-| EEPROM Size | 1020 KB (1 MB) |
+| EEPROM Size | `1020 KB` (1 MB) |
 
 ------
 
@@ -36,29 +36,32 @@ Standard public VBIOS files for device `0x20C2` often restrict card memory to 16
 2. Open CMD as Administrator and run:
    ```cmd
    nvflash64.exe -6 cmp170hx64gb_unlocked.rom
-
+   ```
  • Press Y when prompted to confirm flashing across all matched device IDs.
  • Reboot the system.
 🔹 Option B: Linux (Live USB / Driver Unloaded)
  • Boot into system without loading the NVIDIA kernel driver (or unload via sudo rmmod nvidia_uvm nvidia).
  • Flash using nvflash:
+```cmd
    sudo ./nvflash --protectoff
+```
+```cmd
 sudo ./nvflash -6 cmp170hx64gb_unlocked.rom
-
- • Reboot the system.
+```
+ • **Reboot the system**.
 
 ## 🔍 Verification
 Run nvidia-smi to verify full 64GB detection:
 
-+-----------------------------------------------------------------------------+
+|+-----------------------------------------------------------------------------+|
 | NVIDIA-SMI 535.129.03             Driver Version: 535.129.03               |
-|-------------------------------+----------------------+----------------------+
+|-------------------------------+----------------------+----------------------+|
 | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
 | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
 |===============================+======================+======================|
 |   0  Graphics Device     Off  | 00000000:08:00.0 Off |                  N/A |
-| N/A   34C    P0    28W / 250W |      0MiB / 65536MiB |      0%      Default |
-+-------------------------------+----------------------+----------------------+
+| N/A   34C    P0    28W / 250W |      0MiB / **65536MiB** |      0%      Default |
+|+-------------------------------+----------------------+----------------------+|
 
 ---
 
@@ -106,7 +109,7 @@ CEC OTA-signed Blob=Not Present
 ```
 
 ## 👤 Author & Acknowledgments
- • Dump & Testing: Thaurock
+ • Dump & Testing: **Thaurock**
  • Special thanks: The open-source hardware, AI inference, and LLM self-hosting community.
 
 ---
