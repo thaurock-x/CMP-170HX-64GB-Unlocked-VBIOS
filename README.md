@@ -64,6 +64,7 @@ Run nvidia-smi to verify full 64GB detection:
 ### 💎 Reading EEPROM (this operation may take up to 30 seconds):
 
 ```mermaid
+graph TD
 Build GUID=23DEFEB5432341BD8EFE06C3A1596346
 Build Number=29953139
 IFR Subsysten ID=10DE-1585
