@@ -31,7 +31,7 @@ First public standalone **64GB HBM2e** VBIOS dump (Device ID: `10DE 20C2`) for *
 
 ## 🚀 How to Flash
 
-🔹 Option A: Windows (Command Prompt as Administrator)
+🔹 **Option A:** Windows (Command Prompt as Administrator)
 1. Download `nvflash64.exe` (v5.867.0 or newer).
 2. Open CMD as Administrator and run:
    ```cmd
@@ -41,16 +41,18 @@ First public standalone **64GB HBM2e** VBIOS dump (Device ID: `10DE 20C2`) for *
  
  • **Reboot the system.**
  
-🔹 Option B: Linux (Live USB / Driver Unloaded)
+🔹 **Option B:** Linux (Live USB / Driver Unloaded)
  1. Boot into system without loading the NVIDIA kernel driver (or unload via sudo rmmod nvidia_uvm nvidia).
  2. Flash using nvflash:
-```cmd
+   ```cmd
    sudo ./nvflash --protectoff
-```
-```cmd
+   ```
+   ```cmd
 sudo ./nvflash -6 cmp170hx64gb_unlocked.rom
-```
+   ```
  • **Reboot the system**.
+
+ ---
 
 ## 🔍 Verification
 Run nvidia-smi to verify full 64GB detection:
